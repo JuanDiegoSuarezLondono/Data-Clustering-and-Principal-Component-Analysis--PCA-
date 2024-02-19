@@ -85,3 +85,17 @@ Welcome to the Fundamentals of Data Analysis repository! This repository covers 
         - Problem 9 Data Cleaning
     - Even Larger Datasets
 - Glossary
+
+## Overview
+
+This section provides an introduction to joining datasets, covering basic and complex joins, and practical coding activities to reinforce your understanding.
+
+## Plotting Datasets
+
+Explore various types of plots such as histograms, distribution plots, scatterplots, joint plots, violin plots, and box plots. Engage in hands-on activities to visualize and interpret multivariate datasets effectively.
+
+## Data Cleaning
+
+Learn about data cleaning techniques, including string operations, steps to data cleaning, and practical coding activities to clean and preprocess real-world datasets effectively.
+
+Get ready to dive into the fundamentals of data analysis with us!
