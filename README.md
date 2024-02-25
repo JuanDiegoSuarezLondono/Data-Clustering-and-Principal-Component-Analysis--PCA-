@@ -1,101 +1,86 @@
-# Fundamentals of Data Analysis
+# Overview: Data Clustering and Principal Component Analysis (PCA)
 
 Welcome to the Fundamentals of Data Analysis repository! This repository covers essential concepts and techniques in data analysis, from joining datasets to plotting and data cleaning.
 
 ## Table of Contents
 
-- Overview: Joining Datasets
-    - Basic GCP and Population Join
-    - Codio Activity 4.1: Basic Joins on Datasets
-        - Problem 1 Basic Joins on Datasets
-        - Problem 2 Basic Joins on Datasets
-        - Problem 3 Basic Joins on Datasets
-        - Problem 4 Basic Joins on Datasets
-        - Problem 5 Basic Joins on Datasets
-    - Joining by Multiple Fields
-        - Temporary Dataframe
-    - Codio Activity 4.2: Complex Joins on Datasets
-        - Problem 1 Complex Joins on Datasets
-        - Problem 2 Complex Joins on Datasets
-        - Problem 3 Complex Joins on Datasets
-        - Problem 4 Complex Joins on Datasets
-        - Problem 5 Complex Joins on Datasets
-- Overview: Plotting Datasets
-    - Mini-Lesson 4.1: Histograms and Distribution Plots
-        - Scatterplot
-        - Line chart
-        - Normal distribution
-        - Skewed distribution
-        - Double-peaked or bimodal distribution
-        - Conclusion
-    - Scatterplots of GDP and Population
-    - Adding Life Expectancy Data, Logarithmic Axes
-    - Codio Activity 4.3: Creating Scatterplots, Histograms, and Distribution Plots
-        - Problem 1 Creating Scatterplots, Histograms, and Distribution Plots
-        - Problem 2 Creating Scatterplots, Histograms, and Distribution Plots
-        - Problem 3 Creating Scatterplots, Histograms, and Distribution Plots
-        - Problem 4 Creating Scatterplots, Histograms, and Distribution Plots
-        - Problem 5 Creating Scatterplots, Histograms, and Distribution Plots
-        - Problem 6 Creating Scatterplots, Histograms, and Distribution Plots
-    - Mini-Lesson 4.2: Other Types of Plots
-        - Joint plot
-        - Box plot
-        - Violin plot
-        - Heat map
-    - Histograms, KDE Plots, Violin Plots, Box Plots
-    - Marginal Plots and Joint Plots
-    - Codio Activity 4.4: Creating Violin, Box, and Joint Plots
-        - Problem 1 Creating Violin, Box, and Joint Plots
-        - Problem 2 Creating Violin, Box, and Joint Plots
-        - Problem 3 Creating Violin, Box, and Joint Plots
-        - Problem 4 Creating Violin, Box, and Joint Plots
-        - Problem 5 Creating Violin, Box, and Joint Plots
-        - Problem 6 Creating Violin, Box, and Joint Plots
-        - Problem 7 Creating Violin, Box, and Joint Plots
-        - Problem 8 Creating Violin, Box, and Joint Plots
-        - Problem 9 Creating Violin, Box, and Joint Plots
-        - Problem 10 Creating Violin, Box, and Joint Plots
-        - Problem 11 Creating Violin, Box, and Joint Plots
-        - Problem 12 Creating Violin, Box, and Joint Plots
-        - Problem 13 Creating Violin, Box, and Joint Plots
-        - Problem 14 Creating Violin, Box, and Joint Plots
-- Overview: Data Cleaning
-    - String Data
-    - Working with real world string data (Example)
-    - Codio Activity 4.5: String Operations
-        - Problem 1 String Operations
-        - Problem 2 String Operations
-        - Problem 3: Using the upper method
-        - Problem 4 String Operations
-    - Mini-Lesson 4.3: Steps to Data Cleaning
-        - Step 1: Eliminate duplicates
-        - Step 2: Resolve structural errors
-        - Step 3: Filter outliers
-        - Step 4: Handle missing data
-        - Step 5: Validate
-    - Codio Activity 4.6: Data Cleaning
-        - Problem 1 Data Cleaning
-        - Problem 2 Data Cleaning
-        - Problem 3 Data Cleaning
-        - Problem 4 Data Cleaning
-        - Problem 5 Data Cleaning
-        - Problem 6 Data Cleaning
-        - Problem 7 Data Cleaning
-        - Problem 8 Data Cleaning
-        - Problem 9 Data Cleaning
-    - Even Larger Datasets
+- Overview: Principal Component Analysis (PCA)
+    - Principal components analysis (PCA)
+        - Import some data
+        - Step 1: Normalize the data
+        - Step 2: Perform SVD on the normalized data
+    - Codio Activity 6.1: Applying Singular Value Decomposition (SVD)
+        - Problem 1 Applying Singular Value Decomposition (SVD)
+        - Problem 2 Applying Singular Value Decomposition (SVD)
+        - Problem 3 Applying Singular Value Decomposition (SVD)
+        - Problem 4 Applying Singular Value Decomposition (SVD)
+        - Problem 5 Applying Singular Value Decomposition (SVD)
+    - Codio Activity 6.2: Analyzing the Results of PCA
+        - Problem 1 Analyzing the Results of PCA
+        - Problem 2 Analyzing the Results of PCA
+        - Problem 3 Analyzing the Results of PCA
+        - Problem 4 Analyzing the Results of PCA
+        - Problem 5 Analyzing the Results of PCA
+    - Codio Activity 6.3: Plotting and Interpreting Singular Values
+        - Problem 1 Plotting and Interpreting Singular Values
+        - Problem 2 Plotting and Interpreting Singular Values
+    - Codio Activity 6.4: Adjusting Parameters for Variance
+        - Problem 1 Adjusting Parameters for Variance
+        - Problem 2 Adjusting Parameters for Variance
+        - Problem 3 Adjusting Parameters for Variance
+        - Problem 4 Adjusting Parameters for Variance
+- Overview: Clustering and K-Means
+    - Codio Activity 6.5: Creating the K-Means Algorithm
+        - Problem 1 Creating the K-Means Algorithm
+        - Problem 2 Creating the K-Means Algorithm
+        - Problem 3 Creating the K-Means Algorithm
+    - Codio Activity 6.6: Applying K-Means in Python
+        - Problem 1 Applying K-Means in Python
+        - Problem 2 Applying K-Means in Python
+    - Clustering
+        - Load the data
+        - K-means
+        - Impoved initialization: kmeans ++
+        - DBSCAN
+    - Codio Activity 6.7: Conducting K-Means in Scikit-Learn
+        - Problem 1 Conducting K-Means in Scikit-Learn
+        - Problem 2 Conducting K-Means in Scikit-Learn
+        - Problem 3 Conducting K-Means in Scikit-Learn
+        - Problem 4 Conducting K-Means in Scikit-Learn
+        - Problem 5 Conducting K-Means in Scikit-Learn
+        - Problem 6 Conducting K-Means in Scikit-Learn
+    - Overview: DBSCAN
+    - Codio Activity 6.9: Running DBSCAN
+        - Problem 1 Running DBSCAN
+        - Problem 2 Running DBSCAN
+        - Problem 3 Running DBSCAN
+        - Problem 4 Running DBSCAN
+        - Problem 5 Running DBSCAN
+    - Codio Activity 6.8: Running PCA with Clustering
+        - Problem 1 Running PCA with Clustering
+        - Problem 2 Running PCA with Clustering
+        - Problem 3 Running PCA with Clustering
+        - Problem 4 Running PCA with Clustering
+        - Problem 5 Running PCA with Clustering
+        - Problem 6 Running PCA with Clustering
+        - Problem 7 Running PCA with Clustering
+        - Problem 8 Running PCA with Clustering
+        - Problem 9 Running PCA with Clustering
 - Glossary
 
-## Overview
+## Overview: Data Clustering and Principal Component Analysis (PCA)
 
-This section provides an introduction to joining datasets, covering basic and complex joins, and practical coding activities to reinforce your understanding.
+Welcome to the Fundamentals of Data Analysis repository! This repository covers essential concepts and techniques in data analysis, from joining datasets to plotting and data cleaning.
 
-## Plotting Datasets
+### Overview: Principal Component Analysis (PCA)
+Principal Component Analysis (PCA) is a powerful technique used for dimensionality reduction and data visualization. In this section, we delve into the basics of PCA, including data normalization and singular value decomposition (SVD). Through coding activities, you'll learn how to apply PCA to real-world datasets and interpret the results effectively.
 
-Explore various types of plots such as histograms, distribution plots, scatterplots, joint plots, violin plots, and box plots. Engage in hands-on activities to visualize and interpret multivariate datasets effectively.
+### Overview: Clustering and K-Means
+Clustering is a fundamental unsupervised learning technique used to partition data into groups with similar characteristics. In this section, we focus on K-Means clustering, a popular clustering algorithm. Through coding activities, you'll learn how to implement the K-Means algorithm from scratch and apply it to datasets using Python libraries like scikit-learn. Additionally, we explore other clustering methods such as DBSCAN.
 
-## Data Cleaning
+### Overview: DBSCAN
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is another popular clustering algorithm that is particularly effective for identifying clusters of varying shapes and sizes in spatial data. In this section, we introduce DBSCAN and demonstrate its application through coding activities. You'll learn how to use DBSCAN to cluster datasets and handle noise effectively.
 
-Learn about data cleaning techniques, including string operations, steps to data cleaning, and practical coding activities to clean and preprocess real-world datasets effectively.
+Embark on this exciting journey into the world of data clustering and PCA, and discover powerful techniques for exploring and analyzing complex datasets!
 
-Get ready to dive into the fundamentals of data analysis with us!
+  
