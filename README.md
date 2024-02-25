@@ -1,6 +1,6 @@
-# Overview: Data Clustering and Principal Component Analysis (PCA)
+# Data Clustering and Principal Component Analysis (PCA)
 
-Welcome to the Fundamentals of Data Analysis repository! This repository covers essential concepts and techniques in data analysis, from joining datasets to plotting and data cleaning.
+Welcome to the Data Clustering and Principal Component Analysis (PCA) repository! This repository covers essential concepts and techniques in data clustering and PCA, from basic principles to practical applications.
 
 ## Table of Contents
 
@@ -29,6 +29,7 @@ Welcome to the Fundamentals of Data Analysis repository! This repository covers 
         - Problem 2 Adjusting Parameters for Variance
         - Problem 3 Adjusting Parameters for Variance
         - Problem 4 Adjusting Parameters for Variance
+
 - Overview: Clustering and K-Means
     - Codio Activity 6.5: Creating the K-Means Algorithm
         - Problem 1 Creating the K-Means Algorithm
@@ -40,7 +41,7 @@ Welcome to the Fundamentals of Data Analysis repository! This repository covers 
     - Clustering
         - Load the data
         - K-means
-        - Impoved initialization: kmeans ++
+        - Improved initialization: kmeans ++
         - DBSCAN
     - Codio Activity 6.7: Conducting K-Means in Scikit-Learn
         - Problem 1 Conducting K-Means in Scikit-Learn
@@ -66,21 +67,17 @@ Welcome to the Fundamentals of Data Analysis repository! This repository covers 
         - Problem 7 Running PCA with Clustering
         - Problem 8 Running PCA with Clustering
         - Problem 9 Running PCA with Clustering
+
 - Glossary
 
-## Overview: Data Clustering and Principal Component Analysis (PCA)
+# Overview: Data Clustering and Principal Component Analysis (PCA)
 
-Welcome to the Fundamentals of Data Analysis repository! This repository covers essential concepts and techniques in data analysis, from joining datasets to plotting and data cleaning.
+Welcome to the Data Clustering and Principal Component Analysis (PCA) repository! This repository covers essential concepts and techniques in data clustering and PCA, from basic principles to practical applications.
 
 ### Overview: Principal Component Analysis (PCA)
-Principal Component Analysis (PCA) is a powerful technique used for dimensionality reduction and data visualization. In this section, we delve into the basics of PCA, including data normalization and singular value decomposition (SVD). Through coding activities, you'll learn how to apply PCA to real-world datasets and interpret the results effectively.
+Principal Component Analysis (PCA) is a powerful technique used for dimensionality reduction and data visualization. In this section, we explore the basics of PCA, including data normalization and singular value decomposition (SVD). Through coding activities, you'll learn how to apply PCA to real-world datasets and interpret the results effectively.
 
 ### Overview: Clustering and K-Means
 Clustering is a fundamental unsupervised learning technique used to partition data into groups with similar characteristics. In this section, we focus on K-Means clustering, a popular clustering algorithm. Through coding activities, you'll learn how to implement the K-Means algorithm from scratch and apply it to datasets using Python libraries like scikit-learn. Additionally, we explore other clustering methods such as DBSCAN.
 
-### Overview: DBSCAN
-DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is another popular clustering algorithm that is particularly effective for identifying clusters of varying shapes and sizes in spatial data. In this section, we introduce DBSCAN and demonstrate its application through coding activities. You'll learn how to use DBSCAN to cluster datasets and handle noise effectively.
-
 Embark on this exciting journey into the world of data clustering and PCA, and discover powerful techniques for exploring and analyzing complex datasets!
-
-  
